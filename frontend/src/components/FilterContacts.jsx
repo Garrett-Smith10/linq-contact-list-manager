@@ -1,23 +1,22 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
+import { useState } from 'react';
+import './FilterContacts.css';
 
 export const FilterContacts = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
 
-  const handleChange = (event) => {
+  const handleSearch = (event) => {
     setSearchTerm(event.target.value);
     onSearch(event.target.value);
   };
 
   return (
-    <div className="filter-container">
-      <label htmlFor="search-input">Search Contacts:</label>
-      <input
-        id="search-input"
-        type="text"
-        value={searchTerm}
-        onChange={handleChange}
-        placeholder="Enter name or email"
+    <div className="filter-contacts">
+      <input 
+        type="text" 
+        value={searchTerm} 
+        onChange={handleSearch} 
+        placeholder="Search contacts..." 
       />
     </div>
   );

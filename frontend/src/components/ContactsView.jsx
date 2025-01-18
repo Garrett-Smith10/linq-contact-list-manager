@@ -3,6 +3,7 @@ import { getAllContacts, addContact, deleteContact } from '../services/contactSe
 import { ContactForm } from './ContactForm';
 import { Contacts } from './AllContacts'; 
 import { FilterContacts } from './FilterContacts.jsx';
+import './ContactsView.css';
 
 export const ContactsView = () => {
   const [contacts, setContacts] = useState([]);
@@ -48,8 +49,8 @@ export const ContactsView = () => {
   };
 
   return (
-    <div>
-      <h1>Contact List</h1>
+    <div className="contacts-view">
+      <h1>Contact List Manager</h1>
       <FilterContacts onSearch={handleSearch}/>
       <ContactForm onAddContact={handleAddContact} />
       <h2>View Contacts</h2>

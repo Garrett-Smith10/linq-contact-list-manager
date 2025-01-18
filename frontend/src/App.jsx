@@ -1,10 +1,9 @@
-import { ContactsView } from './components/ContactsView.jsx';
+import { ContactsView } from './components/ContactsView.jsx'; // Importing ContactsView component
 
 export const App = () => {
-  
   return (
     <>
-    <ContactsView/>
+      <ContactsView /> {/* Rendering the ContactsView component */}
     </>
-    )  
+  );
 };

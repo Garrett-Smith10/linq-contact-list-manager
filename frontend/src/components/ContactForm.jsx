@@ -7,6 +7,8 @@ export const ContactForm = ({ onAddContact }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+
+    
     try {
       const newContact = { name, email };
       await onAddContact(newContact);
@@ -21,15 +23,18 @@ export const ContactForm = ({ onAddContact }) => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
+        pattern="[A-Za-z]+"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={(event) => setName(event.target.value)}
         placeholder="Name"
+        required
       />
       <input
         type="email"
         value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        onChange={(event) => setEmail(event.target.value)}
         placeholder="Email"
+        required
       />
       <button type="submit">Add Contact</button>
     </form>

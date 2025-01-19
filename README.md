@@ -64,7 +64,15 @@ This command will:
 
 ## Folder Structure
 
-bash /contact-list-manager ├── /backend # Backend mock API with JSON Server │ └── database.json # JSON Server data (mock data storage) ├── /frontend # React frontend │ ├── /components # React components (e.g., ContactsView, ContactForm) │ └── /services # API service functions (e.g., addContact, getAllContacts) └── package.json # Project configuration and dependencies
+```bash 
+/contact-list-manager 
+├── /backend # Backend mock API with JSON Server 
+│ └── database.json # JSON Server data (mock data storage) 
+├── /frontend # React frontend │ 
+├── /components # React components (e.g., ContactsView, ContactForm) 
+│ └── /services # API service functions (e.g., addContact, getAllContacts) 
+└── package.json # Project configuration and dependencies 
+```
 
 
 ## How It Works

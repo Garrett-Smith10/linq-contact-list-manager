@@ -43,24 +43,30 @@ Contact List Manager is a lightweight web application designed to help users eff
 To set up the application locally:
 
 1. Clone the repository:
-bash git clone https://github.com/yourusername/contact-list-manager.git cd contact-list-manager
+`git clone https://github.com/yourusername/contact-list-manager.git` 
+`cd contact-list-manager`
 
 
 2. Install backend dependencies:
-`cd backend npm install json-server@0`
+Navigate to the backend using: `cd backend` 
+Run: `npm install json-server@0`
 
 
 3. Install frontend dependencies:
-`cd npm install`
+Navigate back to the root directory using: `..` 
+Navigate to frontend using: `cd frontend`
+Run: `npm install`
 
 
 4. Run the application:
-`npm start`
+Navigate back to the root directory using: `..`
+Run: `npm start`
 
 This command will:
 - Start the frontend server on `http://localhost:5173`
 - Start the backend server on `http://localhost:8088`
 - Both servers will operate simultaneously, allowing full-stack interaction
+- Use `ctrl + left click` on the `http://localhost:5173` in the terminal to navigate to the site
 
 ## Folder Structure
 

@@ -47,15 +47,15 @@ bash git clone https://github.com/yourusername/contact-list-manager.git cd conta
 
 
 2. Install backend dependencies:
-bash cd backend npm install json-server@0
+`bash cd backend npm install json-server@0`
 
 
 3. Install frontend dependencies:
-bash cd .. npm install
+`bash cd .. npm install`
 
 
 4. Run the application:
-bash npm start
+`bash npm start`
 
 This command will:
 - Start the frontend server on `http://localhost:5173`

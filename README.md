@@ -47,7 +47,7 @@ bash git clone https://github.com/yourusername/contact-list-manager.git cd conta
 
 
 2. Install backend dependencies:
-bash cd backend npm install json-server
+bash cd backend npm install json-server@0
 
 
 3. Install frontend dependencies:
@@ -116,3 +116,7 @@ Trade-off: Prioritizes functionality over design polish
 
 Bonus Feature: Individual contact deletion implemented
 Trade-off: Basic implementation; could benefit from confirmation dialogs and error handling
+
+### Tests 
+
+If I were to continue working on this project in the future, I would add tests to the frontend.

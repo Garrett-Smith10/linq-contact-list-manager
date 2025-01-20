@@ -17,7 +17,7 @@ A simple web application for managing contacts using React for the frontend and 
 
 ## Overview
 
-Contact List Manager is a lightweight web application designed to help users efficiently manage their contacts. Built with React for the frontend and JSON Server for the backend, this app provides a straightforward way to add, view, search, and delete contacts. The application offers a responsive design, ensuring a smooth user experience across various devices.
+Contact List Manager is a lightweight web application designed to help users efficiently manage their contacts. Built with React for the frontend and JSON Server for the backend, this app provides a straightforward way to add, view, search, and delete contacts. The application offers a responsive design, ensuring a smooth user experience.
 
 ### Features
 
@@ -47,15 +47,15 @@ bash git clone https://github.com/yourusername/contact-list-manager.git cd conta
 
 
 2. Install backend dependencies:
-`bash cd backend npm install json-server@0`
+`cd backend npm install json-server@0`
 
 
 3. Install frontend dependencies:
-`bash cd .. npm install`
+`cd npm install`
 
 
 4. Run the application:
-`bash npm start`
+`npm start`
 
 This command will:
 - Start the frontend server on `http://localhost:5173`
